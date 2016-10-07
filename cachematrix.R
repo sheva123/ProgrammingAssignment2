@@ -30,11 +30,6 @@ cacheSolve <- function(x=makeCacheMatrix(1:4, nrow=2, ncol=2), ...) {
   }
   
   matrixToSolve <- x$get()  
-  
- 
- 
-  
- 
   message("Setting the value of inverse to:") 
   x$setinv(calInv)
 }
